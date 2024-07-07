@@ -27,7 +27,7 @@ def parse_house_structure(structure):
             print(f"Error parsing block: {block}. Error: {e}")
 
     if not blocks:
-        raise ValueError("No valid blocks were parsed from the generated structure.")
+        raise ValueError("нет валидных сгенерированных блоков!")
 
     return blocks
 
